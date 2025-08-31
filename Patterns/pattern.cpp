@@ -101,11 +101,11 @@ void pattern9(int n){
 };
 
 void pattern10(int n){
-    for (int i = 0; i < 2*n-1; i++)
+    for (int i = 1; i <= 2*n-1; i++)
     {
         int stars = i;
-        if(i>n) stars = 2*(n-1); 
-        for (int j = 0; j < stars; j++)
+        if(i>n) stars = 2*n-i; 
+        for (int j = 1; j <= stars; j++)
         {
             cout<<"*";
         };
@@ -115,11 +115,61 @@ void pattern10(int n){
     
 
 };
+void pattern11(int n){
+    int num = 1;
+    for (int i = 0; i < n; i++)
+    {
+        if(i%2==0) num = 1;
+        else num = 0;
+
+        for (int j= 0; j <= i; j++)
+        {
+            cout<<num;
+            num = 1-num;
+        }
+      cout<<endl;  
+    };
+
+};
+
+
+void pattern12(int n){
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout<<j;
+        }
+        for (int j = 1; j <= 2*(n-i); j++)
+        {
+            cout<<"-";
+        }
+        for (int j = 1; j <= i; j++)
+        {
+            cout<<i-j+1;
+        }
+        
+      cout<<endl;  
+    };
+    
+};
+void pattern13(int n){
+    for (int i = 1; i <= n; i++)
+    {
+        for (char j = 'A'; j <= 'A'+i; j++)
+        {
+            cout<<j<< " ";
+        }
+                
+      cout<<endl;  
+    };
+    
+};
 int main() {
     int n;
     cin>>n;
     // pattern1(n);
-    pattern10(n);
+    pattern13(n);
 
     return 0;
 }
