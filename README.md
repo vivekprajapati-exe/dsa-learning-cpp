@@ -43,7 +43,8 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 1 : learnt 3 patterns
 - day 2 : learnt 1 pattern
 - day 3 : did nothing
-- day 4 : learnt 5 patterns (18,19,20,21,22)
+- day 4 : learnt 5 patterns (18,19,20,21,22) so finished with patterns on this day
+- day 5 : learnt basic maths - counting digits in number input
 
 _(Updating daily...)_
 
