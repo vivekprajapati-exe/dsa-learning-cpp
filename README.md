@@ -45,6 +45,7 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 3 : did nothing
 - day 4 : learnt 5 patterns (18,19,20,21,22) so finished with patterns on this day
 - day 5 : learnt basic maths - counting digits in number input
+- day 6 : basic maths - reverse number , check palindrome also did my first 3 leetcode problems of my life
 
 _(Updating daily...)_
 
