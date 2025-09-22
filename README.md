@@ -1,5 +1,3 @@
-# 🚀 100 Days of DSA in C++
-
 Welcome to my **Daily DSA Challenge Repository**!  
 I’ve taken up the challenge to **learn, practice, and upload Data Structures & Algorithms (DSA) in C++ every single day**.
 
@@ -20,15 +18,6 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 
 ---
 
----
-
-## 🛠️ Tech Stack
-
-- **Language:** C++ (C++17/20)
-- **Platform:** Problems from LeetCode, Codeforces, GFG, etc.
-
----
-
 ## 🎯 Goals
 
 - Build strong foundations in **DSA**.
@@ -46,9 +35,16 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 4 : learnt 5 patterns (18,19,20,21,22) so finished with patterns on this day
 - day 5 : learnt basic maths - counting digits in number input
 - day 6 : basic maths - reverse number , check palindrome also did my first 3 leetcode problems of my life
-- day 7 : learnt just how to find a armstrong number day was very busy and hectic
+- day 7 : learnt just how to find a armstrong number , printing divisors (high complexity) day was very busy and hectic
 
 _(Updating daily...)_
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** C++ (C++17/20)
+- **Platform:** Problems from LeetCode, Codeforces, GFG, etc.
 
 ---
 
