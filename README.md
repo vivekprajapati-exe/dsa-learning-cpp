@@ -36,7 +36,8 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 5 : learnt basic maths - counting digits in number input
 - day 6 : basic maths - reverse number , check palindrome also did my first 3 leetcode problems of my life
 - day 7 : learnt just how to find a armstrong number , printing divisors (high complexity) day was very busy and hectic
-- day 8 (23/09/25) - did nothing 
+- day 8 (23/09/25) - did nothing
+- day 9 (24/09/25) - a small revision on the basic maths
 
 _(Updating daily...)_
 
