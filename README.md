@@ -38,6 +38,10 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 7 : learnt just how to find a armstrong number , printing divisors (high complexity) day was very busy and hectic
 - day 8 (23/09/25) - did nothing
 - day 9 (24/09/25) - a small revision on the basic maths
+- day 10 (25/09/25) - NOTHING !
+- day 11 (26/09/25) - NOTHING !
+- day 12 (27/09/25) - NOTHING !
+- day 13 (28/09/25) - Prime Number , print divisors (using vector)
 
 _(Updating daily...)_
 

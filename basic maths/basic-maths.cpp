@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 void printNum(int n)
@@ -81,22 +80,49 @@ void armstrongNum(int n)
 
 void printDivisors(int n)
 {
+    vector<int> ls;
     for (int i = 1; i <= sqrt(n); i++)
     {
         if (n % i == 0)
         {
-        }
-        cout << i << ",";
-        {
-            if (n / i != i)
-                cout << n / i << ",";
+            ls.push_back(i);
+            {
+                if (n / i != i)
+                    ls.push_back(n / i);
+            }
         }
     }
+    sort(ls.begin(), ls.end());
+    for (auto it : ls)
+        cout << it << " ";
 }
+
+void checkPrime(int n)
+{
+    int counter = 0;
+    for (int i = 1; i * i <= n; i++)
+    {
+        if (n % i == 0)
+        {
+            counter++;
+            if (n / i != i)
+                counter++;
+        }
+    }
+    if (counter == 2)
+    {
+        cout << "it is prime";
+    }
+    else
+    {
+        cout << "it is not prime";
+    }
+}
+
 int main()
 {
     int num;
     cin >> num;
 
-    printDivisors(num);
+    checkPrime(num);
 }
