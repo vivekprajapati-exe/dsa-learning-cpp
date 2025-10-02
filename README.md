@@ -42,6 +42,10 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 11 (26/09/25) - NOTHING !
 - day 12 (27/09/25) - NOTHING !
 - day 13 (28/09/25) - Prime Number , print divisors (using vector)
+- day 14 (29/09/25) - NOTHING !
+- day 15 (30/09/25) - NOTHING !
+- day 16 (1/10/25) - Completed basic maths was little hard need a solid revision later but completed for now i can do it just for now
+- day 17 (2/10/25) - Basic Recursion , stackoverflow , backtracking , little problems solving but yet not able to solve those questions on leetcode due to optimized cod
 
 _(Updating daily...)_
 
