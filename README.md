@@ -45,7 +45,8 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 14 (29/09/25) - NOTHING !
 - day 15 (30/09/25) - NOTHING !
 - day 16 (1/10/25) - Completed basic maths was little hard need a solid revision later but completed for now i can do it just for now
-- day 17 (2/10/25) - Basic Recursion , stackoverflow , backtracking , little problems solving but yet not able to solve those questions on leetcode due to optimized cod
+- day 17 (2/10/25) - Basic Recursion , stackoverflow , backtracking , little problems solving but yet not able to solve those questions on leetcode due to optimized code
+- day 18 (3/10/25) - sumofN using functional return , same with factorial and yeah little optimzed code
 
 _(Updating daily...)_
 

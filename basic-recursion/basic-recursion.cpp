@@ -54,10 +54,28 @@ void sumofN(int i, int sum)
 {
     if (i < 1)
     {
-        cout << sum;
+        cout << sum << endl;
         return;
     }
     sumofN(i - 1, sum + i);
+    cout << sum << endl;
+}
+
+int functionalSum(int n)
+{
+    if (n < 0)
+    {
+        return 0;
+    }
+    return (n + functionalSum(n - 1));
+}
+int factorialN(int n)
+{
+    if (n == 1)
+    {
+        return n;
+    }
+    return (n * factorialN(n - 1));
 }
 
 int main()
@@ -65,6 +83,6 @@ int main()
     // dont manipulate the users actual data instead take a other var you dont wand to lose all the data of user if they have precious data and for your calcuations
     int n;
     cin >> n;
-    sumofN(n, 0);
+    cout << factorialN(n);
     return 0;
 }
