@@ -78,11 +78,23 @@ int factorialN(int n)
     return (n * factorialN(n - 1));
 }
 
+int revArr(int arr, int *left, int *right)
+{
+    if (left >= right)
+    {
+        return arr[left];
+    }
+    swap(arr[left], arr[right]);
+    revArr(arr, left + 1, right - 1);
+    return arr;
+}
+
 int main()
 {
     // dont manipulate the users actual data instead take a other var you dont wand to lose all the data of user if they have precious data and for your calcuations
     int n;
     cin >> n;
+    int num[] = {1, 2, 3, 4, 5, 6, 7, 8};
     cout << factorialN(n);
     return 0;
 }

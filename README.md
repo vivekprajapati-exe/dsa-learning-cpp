@@ -47,6 +47,7 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 16 (1/10/25) - Completed basic maths was little hard need a solid revision later but completed for now i can do it just for now
 - day 17 (2/10/25) - Basic Recursion , stackoverflow , backtracking , little problems solving but yet not able to solve those questions on leetcode due to optimized code
 - day 18 (3/10/25) - sumofN using functional return , same with factorial and yeah little optimzed code
+- day 19 (4/10/25) - attempt of revers a array (failed)
 
 _(Updating daily...)_
 
