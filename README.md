@@ -48,6 +48,8 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 17 (2/10/25) - Basic Recursion , stackoverflow , backtracking , little problems solving but yet not able to solve those questions on leetcode due to optimized code
 - day 18 (3/10/25) - sumofN using functional return , same with factorial and yeah little optimzed code
 - day 19 (4/10/25) - attempt of revers a array (failed)
+- day 20 - 33 (5/10/25 - 18/10/25) did nothing due to exams and other exsistential crises
+- day 21 - (19/10/25) learnt about reverse a array using swap , multiple recursion  / fibonacci numbers
 
 _(Updating daily...)_
 

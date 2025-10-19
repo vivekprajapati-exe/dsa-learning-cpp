@@ -78,23 +78,53 @@ int factorialN(int n)
     return (n * factorialN(n - 1));
 }
 
-int revArr(int arr, int *left, int *right)
+// void revArr(int arr[], int left, int right)
+// {
+//     if (left >= right)
+//     {
+//         return; // Base case: nothing more to reverse
+//     }
+//     swap(arr[left], arr[right]);
+//     revArr(arr, left + 1, right - 1);
+// }
+
+void revArr(int i, int arr[], int n)
 {
-    if (left >= right)
+    if (i >= n / 2)
     {
-        return arr[left];
+        return;
     }
-    swap(arr[left], arr[right]);
-    revArr(arr, left + 1, right - 1);
-    return arr;
+    swap(arr[i], arr[n - i - 1]);
+    revArr(i + 1, arr, n);
+}
+void palindrome(int i, string text, int n)
+{
+    if (i >= n / 2)
+    {
+        return;
+    }
+    if (text[i] == text[n - i - 1])
+    {
+        palindrome(i + 1, text, n);
+        cout << "it is palindrome";
+    }
+    else
+    {
+        cout << "not palindrome" << text;
+    }
+}
+
+int fibonaciNo(int n)
+{
+    fo
 }
 
 int main()
 {
     // dont manipulate the users actual data instead take a other var you dont wand to lose all the data of user if they have precious data and for your calcuations
-    int n;
-    cin >> n;
-    int num[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    cout << factorialN(n);
+    string name;
+    cin >> name;
+    palindrome(0, name, name.length());
+
     return 0;
 }
