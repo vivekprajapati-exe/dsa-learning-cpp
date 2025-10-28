@@ -50,6 +50,8 @@ This repo is my journey — a mix of code, progress, failures, and consistency. 
 - day 19 (4/10/25) - attempt of revers a array (failed)
 - day 20 - 33 (5/10/25 - 18/10/25) did nothing due to exams and other exsistential crises
 - day 21 - (19/10/25) learnt about reverse a array using swap , multiple recursion  / fibonacci numbers
+- day 29 - 27/10/25 - fibonaaci numbers by self
+
 
 _(Updating daily...)_
 

@@ -116,15 +116,29 @@ void palindrome(int i, string text, int n)
 
 int fibonaciNo(int n)
 {
-    fo
+    if (n <= 1)
+    {
+        return n;
+    }
+    return fibonaciNo(n - 1) + fibonaciNo(n - 2);
 }
 
 int main()
 {
     // dont manipulate the users actual data instead take a other var you dont wand to lose all the data of user if they have precious data and for your calcuations
-    string name;
-    cin >> name;
-    palindrome(0, name, name.length());
+    // string name;
+    // cin >> name;
+    // palindrome(0, name, name.length());
 
+    int n;
+    cout << "Enter number of terms: ";
+    cin >> n;
+
+    cout << "Fibonacci Series: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << fibonaciNo(i) << " ";
+    }
+    cout << endl;
     return 0;
 }
