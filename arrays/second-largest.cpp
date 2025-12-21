@@ -10,13 +10,10 @@ int main()
     {
         if (arr[i] > largest)
         {
+            secLargest = largest;
             largest = arr[i];
         }
-    }
-
-    for (int i = 0; i < 6; i++)
-    {
-        if (arr[i] > secLargest && arr[i] != largest)
+        else if (arr[i] > secLargest && arr[i] < largest)
         {
             secLargest = arr[i];
         }

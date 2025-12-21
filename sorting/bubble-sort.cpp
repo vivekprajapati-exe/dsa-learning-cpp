@@ -1,25 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void bubble_sort(int arr[], int n)
-{
-
-    for (int i = n - 1; i >= 0; i--)
-    {
-        int didSwap = 0;
-        for (int j = 0; j <= i - 1; j++)
-        {
-            if (arr[j] > arr[i])
-            {
-                swap(arr[j], arr[i]);
-                didSwap = 1;
-            }
-        }
-        if (didSwap == 0)
-            break;
-    }
-}
-
 void bubble_sort_rev(int arr[], int n)
 {
     bool didSwap = false;
@@ -42,8 +23,10 @@ void bubble_sort_rev(int arr[], int n)
 }
 
 void bubble_sort_recursion(vector<int> &arr)
+{
+}
 
-    int main()
+int main()
 {
     // Your code here
     int n;
