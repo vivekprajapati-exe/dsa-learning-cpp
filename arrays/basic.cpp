@@ -373,11 +373,61 @@ int longestsubArray(vector<int> &nums, int k)
         long rem = sum - k;
         if (prefixSum.find(rem) != prefixSum.end())
         {
-            maxLength = i - rem + 1;
+            int len = i - prefixSum[rem];
+            maxLength = len;
         }
+        if (prefixSum.find(sum) == prefixSum.end())
+        {
+            prefixSum[sum] = i;
+        }
+    };
+
+    return maxLength;
+}
+
+int longestSubarray_optimal(vector<int> &nums, int k)
+{
+    int left = 0, right = 0;
+    long long sum = 0;
+    int maxLen = 0;
+    int n = nums.size();
+
+    while (right < n)
+    {
+        sum += nums[right];
+
+        while (left <= right && sum > k)
+        {
+            sum -= nums[left];
+            left++;
+        }
+
+        if (sum == k)
+        {
+            maxLen = max(maxLen, right - left + 1);
+        }
+
+        right++;
     }
 
-    return maxlength
+    return maxLen;
+}
+
+void TwoSum_better(vector<int> nums, int target)
+{
+    map<int, int> prevData;
+    for (int i = 0; i < nums.size(); i++)
+    {
+        int rem = target - nums[i];
+        if (prevData.find(rem) != prevData.end())
+        {
+            return true; // return {prevData[rem] , i}
+            break;
+        }
+        prevData[nums[i]] = i;
+    }
+
+    return false;
 }
 
 int main()
@@ -390,14 +440,14 @@ int main()
     vector<int> findonce = {2, 2, 4, 1, 4};
     vector<int> longestsubArray_arr = {1, 2, 1, 1, 1, 5, 8};
 
-    cout << longestsubArray(longestsubArray_arr, 3)
+    cout << longestSubarray_optimal(longestsubArray_arr, 3);
 
-        // cout << is_sorted(arr2);
-        // cout << removeDuplicateInSorted(arr2) << endl;
-        // for (int x : result)
-        // {
-        //     cout << x << " ";
-        // }
+    // cout << is_sorted(arr2);
+    // cout << removeDuplicateInSorted(arr2) << endl;
+    // for (int x : result)
+    // {
+    //     cout << x << " ";
+    // }
 
-        return 0;
+    return 0;
 }
